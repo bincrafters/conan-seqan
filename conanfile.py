@@ -14,7 +14,7 @@ class SeqanConan(ConanFile):
     author = "Alexander Zaitsev <zamazan4ik@tut.by>"
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False]}
-    default_options = "shared=False"
+    default_options = {'shared': 'False'}
     #use static org/channel for libs in conan-center
     #use dynamic org/channel for libs in bincrafters
 
